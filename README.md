@@ -1,16 +1,69 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 💻 Ritesh Bafna — Developer Portfolio
 
-Currently, two official plugins are available:
+A modern, responsive, and animated developer portfolio built using React, Vite, Framer Motion, and Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This portfolio showcases my experience, skills, projects, and contact information — featuring smooth animations, dark/light mode, and integrated email messaging.
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 ***Live Site: https://ritesh25portfolio.vercel.app/***
+## 🚀 Features
 
-## Expanding the ESLint configuration
+✅ Modern Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React + Vite
+
+- Tailwind CSS
+
+- Framer Motion for animations
+
+- Lucide Icons & React Icons
+
+- EmailJS Integration for contact form
+
+- Responsive Layout (Mobile, Tablet, Desktop)
+
+- Dark Mode Support with Theme Context
+
+🎨 Clean UI / UX
+
+- Animated hero section
+
+- Interactive buttons and hover effects
+
+- Smooth transitions between sections
+
+
+## 🛠️ Tech Stack
+
+❇️ **Frontend** → React (Vite)
+
+❇️ **Styling** → Tailwind CSS
+
+❇️ **Animation** → Framer Motion
+
+❇️ **Form Handling** → EmailJS
+
+❇️ **State Management** → Context API
+
+❇️ **Icons** → Lucide React, Font awesome
+
+## 🤝Contributing
+
+We welcome contributions! If you would like to improve, feel free to fork the repository, create a feature branch, and submit a pull request.
+
+- Fork the repository
+
+- Create a new branch (git checkout -b feature-branch)
+
+- Make your changes
+
+- Commit your changes (git commit -am 'Add new feature')
+
+- Push to the branch (git push origin feature-branch)
+
+- Create a pull request## 📱Deployment
+
+Deployed on Vercel. 
+
+### 🌐*Link : https://ritesh25portfolio.vercel.app/*
