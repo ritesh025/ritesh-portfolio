@@ -1,5 +1,6 @@
 import React from "react";
 import { useRef } from "react";
+// eslint-disable-next-line no-unused-vars
 import { motion, useInView } from "framer-motion";
 import { ArrowUpRight, Code2, Globe, Zap, Users } from "lucide-react";
 import { useTheme } from "../../context/ThemeContext";

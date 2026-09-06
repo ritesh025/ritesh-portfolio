@@ -1,144 +1,148 @@
 //import { label, title } from 'framer-motion/client';
-import{
-    Code2,
-    //GraduationCap,
-    //Briefcase,
-    //Award,
-    Rocket,
-    Heart,
-    Coffee,
-    BookOpen,
-    Zap,
-    Database,
-    Server,
-    Cloud,
-    Mail,
-    MapPin,
-    Phone,
-} from 'lucide-react';
+import {
+  Code2,
+  //GraduationCap,
+  //Briefcase,
+  //Award,
+  Rocket,
+  Heart,
+  Coffee,
+  BookOpen,
+  Zap,
+  Database,
+  Server,
+  Cloud,
+  Mail,
+  MapPin,
+  Phone,
+} from "lucide-react";
 
-import { FiGithub, FiLinkedin, FiTwitter,
- } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
 import { FaXTwitter } from "react-icons/fa6";
 
 //Here import all the assets like images
-import Project1 from '../assets/images/Project1.png';
-import Project2 from '../assets/images/Project2.png';
-import Project3 from '../assets/images/Project3.png';
-import Project4 from '../assets/images/Project4.png';
-import Project5 from '../assets/images/Project5.png';
-import Project6 from '../assets/images/Project6.png';
-import Project7 from '../assets/images/Project7.png';
+import Project1 from "../assets/images/Project1.png";
+import Project2 from "../assets/images/Project2.png";
+import Project3 from "../assets/images/Project3.png";
+import Project4 from "../assets/images/Project4.png";
+import Project5 from "../assets/images/Project5.png";
+import Project6 from "../assets/images/Project6.png";
+import Project7 from "../assets/images/Project7.png";
+import Project8 from "../assets/images/Project8.png";
+import Project9 from "../assets/images/Project9.png";
+import Project10 from "../assets/images/Project10.png";
+import Project11 from "../assets/images/Project11.png";
 
 export const SKILLS_CATEGORY = [
-    {
-        title: "Frontend",
-        icon: Code2,
-        description: "Building visually appealing and user-friendly interfaces using modern frontend technologies.",
-        skills: [
-            {name: "ReactJs", level:60, color: "bg-sky-500"},
-            {name: "TypeScript", level:50, color: "bg-blue-700"},
-            {name: "NextJs", level:50, color: "bg-gray-500"},
-            {name: "TailwindCSS", level:60, color: "bg-cyan-500"},
-            {name: "Framer Motion", level:50, color: "bg-pink-600"},
-        ],
-    },
+  {
+    title: "Frontend",
+    icon: Code2,
+    description:
+      "Building visually appealing and user-friendly interfaces using modern frontend technologies.",
+    skills: [
+      { name: "ReactJs", level: 60, color: "bg-sky-500" },
+      { name: "TypeScript", level: 50, color: "bg-blue-700" },
+      { name: "NextJs", level: 50, color: "bg-gray-500" },
+      { name: "TailwindCSS", level: 60, color: "bg-cyan-500" },
+      { name: "Framer Motion", level: 50, color: "bg-pink-600" },
+    ],
+  },
 
-    {
-        title: "Backend",
-        icon: Server,
-        description: "Designing and implementing robust backend systems and APIs to support frontend applications.",
-        skills: [
-          {name: "Python (Django)", level:40, color: "bg-emerald-900"},
-            {name: "NodeJs", level:40, color: "bg-green-500"},
-            {name: "ExpressJs", level:20, color: "bg-gray-600"},
-            {name: "Flask", level:35, color: "bg-rose-500"},
-            {name: "Firebase", level:30, color: "bg-orange-500"},
-        ],
-    },
+  {
+    title: "Backend",
+    icon: Server,
+    description:
+      "Designing and implementing robust backend systems and APIs to support frontend applications.",
+    skills: [
+      { name: "Python (Django)", level: 40, color: "bg-emerald-900" },
+      { name: "NodeJs", level: 40, color: "bg-green-500" },
+      { name: "ExpressJs", level: 20, color: "bg-gray-600" },
+      { name: "Flask", level: 35, color: "bg-rose-500" },
+      { name: "Firebase", level: 30, color: "bg-orange-500" },
+    ],
+  },
 
-    {
-        title: "Database",
-        icon: Database,
-        description: "Managing and optimizing databases to ensure efficient data storage and retrieval.",
-        skills: [
-            {name: "MongoDB", level:55, color: "bg-green-400"},
-            {name: "MySQL", level:50, color: "bg-amber-400"},
-            {name: "PostgreSQL", level:35, color: "bg-cyan-700"},
-            {name: "SQLite", level:50, color: "bg-blue-800"},
-            {name: "Redis", level:10, color: "bg-red-500"},
-        ],
-    },
+  {
+    title: "Database",
+    icon: Database,
+    description:
+      "Managing and optimizing databases to ensure efficient data storage and retrieval.",
+    skills: [
+      { name: "MongoDB", level: 55, color: "bg-green-400" },
+      { name: "MySQL", level: 50, color: "bg-amber-400" },
+      { name: "PostgreSQL", level: 35, color: "bg-cyan-700" },
+      { name: "SQLite", level: 50, color: "bg-blue-800" },
+      { name: "Redis", level: 10, color: "bg-red-500" },
+    ],
+  },
 
-    {
-        title: "DevOps",    
-        icon: Cloud,
-        description: "Implementing CI/CD pipelines and managing cloud infrastructure for seamless deployment and scalability.",
-        skills: [
-            {name: "Docker", level:20, color: "bg-blue-400"},
-            {name: "Vercel", level:70, color: "bg-slate-500"},
-            {name: "AWS", level:25, color: "bg-amber-600"},
-            {name: "GitHub Actions", level:55, color: "bg-blue-700"},
-            {name: "Netlify", level:60, color: "bg-teal-500"},
-        ],
-    },
-
+  {
+    title: "DevOps",
+    icon: Cloud,
+    description:
+      "Implementing CI/CD pipelines and managing cloud infrastructure for seamless deployment and scalability.",
+    skills: [
+      { name: "Docker", level: 20, color: "bg-blue-400" },
+      { name: "Vercel", level: 70, color: "bg-slate-500" },
+      { name: "AWS", level: 25, color: "bg-amber-600" },
+      { name: "GitHub Actions", level: 55, color: "bg-blue-700" },
+      { name: "Netlify", level: 60, color: "bg-teal-500" },
+    ],
+  },
 ];
 
 export const TECH_STACK = [
   "HTML5",
   "CSS3",
   "TailwindCSS",
-    "JavaScript",
-    "TypeScript",
-    "ReactJs",
-    "NextJs",
-    "NodeJs",
-    "ExpressJs",
-    "Bootstrap",
-    "MongoDB",
-    "Python",
-    "Django",
-    "Pandas",
-    "Git",
-    "Rest API",
-    "Vite",
-    "Framer Motion",
-    "UI/UX",
-    "ThreeJs",
-    "VS Code",
-    "Figma",
-    "Photoshop",
-    "Vercel",
-    "PowerBI",
-    "Tableau",
-
+  "JavaScript",
+  "TypeScript",
+  "ReactJs",
+  "NextJs",
+  "NodeJs",
+  "ExpressJs",
+  "Bootstrap",
+  "MongoDB",
+  "Python",
+  "Django",
+  "Pandas",
+  "Git",
+  "Rest API",
+  "Vite",
+  "Framer Motion",
+  "UI/UX",
+  "ThreeJs",
+  "VS Code",
+  "Figma",
+  "Photoshop",
+  "Vercel",
+  "PowerBI",
+  "Tableau",
 ];
 
 export const STATS = [
-    {number: "50+", label: "Projects Completed" },
-    {number: "30+", label: "Happy Clients" },
-    {number: "5+", label: "Years of Experience" },
-    {number: "10+", label: "Certifications Earned" },
-    {number: "100%", label: "Satisfaction Rate" },
-    {number: "24/7", label: "Support Availability" },
-    {number: "20+", label: "Tech Stack Proficiency" },
+  { number: "50+", label: "Projects Completed" },
+  { number: "30+", label: "Happy Clients" },
+  { number: "5+", label: "Years of Experience" },
+  { number: "10+", label: "Certifications Earned" },
+  { number: "100%", label: "Satisfaction Rate" },
+  { number: "24/7", label: "Support Availability" },
+  { number: "20+", label: "Tech Stack Proficiency" },
 ];
 
 export const PROJECTS = [
   {
     id: 1,
-    title: "TickVen",
+    title: "TalkLeaf",
     description:
-      "TickVen is a cutting-edge stock market platform designed to empower traders and investors with real-time insights, intelligent alerts, and comprehensive analytics. ",
-    image: Project1,
-    tags: ["NextJs", "TailwindCSS", "MongoDB", "TypeScript", "Inngest"],
-    liveUrl: "https://tickven.vercel.app/",
+      "TalkLeaf allows users to build a personal digital library from PDF books and interact with those books using voice. Once a book is uploaded and processed, its content can be used as the context for AI-powered conversations.",
+    image: Project9,
+    tags: ["NextJs", "TypeScript", "MongoDB", "Vapi", "Gemini"],
+    liveUrl: "https://talkleaf.vercel.app/",
     githubUrl: "https://github.com/ritesh025",
     featured: true,
     category: "Full Stack",
   },
-
   {
     id: 2,
     title: "SkillTics",
@@ -154,6 +158,56 @@ export const PROJECTS = [
 
   {
     id: 3,
+    title: "SneakTalk",
+    description:
+      "SneakTalk is a fun, private, one-to-one real-time chat application where messages automatically disappear after a set time. No groups. No chat history. No digital footprints.",
+    image: Project8,
+    tags: ["TypeScript", "ElysiaJS ", "Upstash", "Zod"],
+    liveUrl: "https://sneak-talk.vercel.app/",
+    githubUrl: "https://github.com/ritesh025/SneakTalk",
+    featured: true,
+    category: "Full Stack",
+  },
+
+  {
+    id: 4,
+    title: "TickVen",
+    description:
+      "TickVen is a cutting-edge stock market platform designed to empower traders and investors with real-time insights, intelligent alerts, and comprehensive analytics. ",
+    image: Project1,
+    tags: ["NextJs", "TailwindCSS", "MongoDB", "TypeScript", "Inngest"],
+    liveUrl: "https://tickven.vercel.app/",
+    githubUrl: "https://github.com/ritesh025",
+    featured: true,
+    category: "Full Stack",
+  },
+  {
+    id: 5,
+    title: "Eveify",
+    description:
+      "Eveify is a modern event organizing and management platform that helps users discover, explore, and engage with events based on their location, interests, and popularity.",
+    image: Project11,
+    tags: ["NextJs", "Convex", "Vite", "Framer motion"],
+    liveUrl: "https://eveify.vercel.app/",
+    githubUrl: "https://github.com/ritesh025",
+    featured: true,
+    category: "Full Stack",
+  },
+  {
+    id: 6,
+    title: "WoodZeno",
+    description:
+      "WoodZeno is a modern, responsive furniture and interior design website frontend built using Next.js and Tailwind CSS.",
+    image: Project10,
+    tags: ["NextJs", "TailwindCSS", "React Hooks"],
+    liveUrl: "https://woodzeno.vercel.app/",
+    githubUrl: "https://github.com/ritesh025",
+    featured: true,
+    category: "Frontend",
+  },
+
+  {
+    id: 7,
     title: "FlickFetch",
     description:
       "FlickFetch is a responsive and dynamic movie discovery web app built with HTML, Tailwind CSS, and JavaScript, powered by The Movie Database (TMDb) API.",
@@ -166,7 +220,7 @@ export const PROJECTS = [
   },
 
   {
-    id: 4,
+    id: 8,
     title: "TrAip",
     description:
       "Traip is a frontend web application designed to help users plan their trips with the assistance of artificial intelligence that generates personalized itineraries.",
@@ -179,7 +233,7 @@ export const PROJECTS = [
   },
 
   {
-    id: 5,
+    id: 9,
     title: "Weatherify",
     description:
       "Weatherify is a responsive, lightweight web application that fetches and displays real-time weather and 5-day forecasts.",
@@ -192,7 +246,7 @@ export const PROJECTS = [
   },
 
   {
-    id: 6,
+    id: 10,
     title: "On-Pass",
     description:
       "On-Pass is a secure and user-friendly password manager that ensures safe password storage and retrieval while providing a sleek and modern UI.",
@@ -205,7 +259,7 @@ export const PROJECTS = [
   },
 
   {
-    id: 7,
+    id: 11,
     title: "Portfolio",
     description:
       "A modern and interactive 3D portfolio website to showcase my projects and skills.",
@@ -237,28 +291,31 @@ export const PROJECTS = [
 ] */
 
 export const PASSIONS = [
-    {
-        icon: Heart,
-        title: "User Experience (UX)",
-        description: "Crafting intuitive and engaging user experiences that leave a lasting impression.",
-    },
-    {
-        icon: Coffee,
-        title: "Problem Solving",
-        description: "Tackling complex challenges with innovative solutions and a strategic mindset.",
-    },
-    {
-        icon: BookOpen,
-        title: "Continuous Learning",
-        description: "Staying updated with the latest industry trends and technologies to enhance my skills.",
-    },
-    {
-        icon: Zap,
-        title: "Performance Optimization",
-        description: "Ensuring fast and efficient applications through meticulous optimization techniques.",
-    },
+  {
+    icon: Heart,
+    title: "User Experience (UX)",
+    description:
+      "Crafting intuitive and engaging user experiences that leave a lasting impression.",
+  },
+  {
+    icon: Coffee,
+    title: "Problem Solving",
+    description:
+      "Tackling complex challenges with innovative solutions and a strategic mindset.",
+  },
+  {
+    icon: BookOpen,
+    title: "Continuous Learning",
+    description:
+      "Staying updated with the latest industry trends and technologies to enhance my skills.",
+  },
+  {
+    icon: Zap,
+    title: "Performance Optimization",
+    description:
+      "Ensuring fast and efficient applications through meticulous optimization techniques.",
+  },
 ];
-
 
 export const SOCIAL_LINKS = [
   {
@@ -291,23 +348,22 @@ export const SOCIAL_LINKS = [
   },
 ];
 
-
 export const CONTACT_INFO = [
-    {
-        icon: MapPin,
-        label: "Location",
-        value: "Chhattisgarh, India",
-    },
+  {
+    icon: MapPin,
+    label: "Location",
+    value: "Chhattisgarh, India",
+  },
 
-    {
-        icon: Mail,
-        label: "Email",
-        value: "riteshbafna025@gmail.com",
-    },
+  {
+    icon: Mail,
+    label: "Email",
+    value: "riteshbafna025@gmail.com",
+  },
 
-    {
-        icon: Phone,
-        label: "Phone",
-        value: "+91 700XXXXXXX",
-    }
-]
+  {
+    icon: Phone,
+    label: "Phone",
+    value: "+91 700XXXXXXX",
+  },
+];
